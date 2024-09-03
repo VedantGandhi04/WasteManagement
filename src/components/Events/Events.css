@@ -1,0 +1,64 @@
+.event_header_main {
+    font-size:2rem;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+.events_header div p{
+    color:#555;
+    font-size:1.2rem;
+    line-height:1.5;
+    padding: 1.3rem;
+    transition: .3s ease;
+    border-radius: .5rem;
+    border: 1px solid #E8E8E8;
+    font-family: 'Ubuntu', sans-serif;
+}
+.options{
+    display:flex;
+    justify-content:center;
+    gap: 8rem;
+}
+.events_header div p:hover {
+   transform: scale(1.01);
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.org_heading, .participate_heading{
+    font-size:1.5rem;
+    margin-bottom:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: .5rem;
+    border: 1px solid #E8E8E8;
+    padding: .4rem;
+    transition: .3s ease;
+}
+.org_heading:hover, .participate_heading:hover{
+  transform: scale(1.01);
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+/* events.css */
+  .org-image img,
+  .part-image img {
+    height: 15rem;
+    border-radius: .5rem;
+    transition: .3s ease;
+  }
+  
+.org-image img:hover,.part-image img:hover {
+    transform: scale(.99) ;
+}
+
+.option button {
+    background-color: #96EDA9;
+    width:100%;
+    padding: 10px 22px;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 1px solid #E8E8E8;
+    font-family: 'Ubuntu', sans-serif;
+    transition: .3s ease;
+}
+.option button:hover {
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    color:#03C03C ;
+}
+  

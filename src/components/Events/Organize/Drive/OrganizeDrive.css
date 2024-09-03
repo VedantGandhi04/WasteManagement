@@ -1,0 +1,122 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* overflow:hidden; */
+}
+
+.OrganizeDrive{
+    outline: 1px solid #E8E8E8;
+    padding:2rem;
+    border-radius:.5rem;
+    max-width: 45%;
+    margin: 0 auto;
+    background-color: transparent;
+    transition: .3s ease;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.OrganizeDrive:hover{
+  transform: scale(1.01);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.form-title{
+    color: #2FAF57; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom:0.8rem;
+    animation: fadeIn 1s ease-in-out 0.4s forwards;
+    font-size: 2rem;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Animate from fully transparent */
+    }
+    to {
+      opacity: 1; /* Animate to fully visible */
+    }
+  }
+.form-description {
+    color: gray;
+    font-size: 1rem;
+    margin-bottom:0.8rem;
+  }
+  .separator {
+    border-top: 1px solid #ccc; /* Add a thin border line */
+    margin-top: 0.6rem; /* Space it from the paragraph */
+  }
+  .form-group{
+    margin:0.5rem 0;
+    width:100%;
+  }
+  .form-input{
+    border:1px solid #2FAF57; 
+    width: 100%;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-textarea {
+    width: 100%;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+label {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-subtitle {
+    opacity:0.8;
+    color: #2FAF57; 
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+    gap:0.2rem;
+  }
+  .address_details{
+    display: flex;
+    justify-content: space-between;
+    gap:0.2rem;
+  }
+ 
+.form-button-nice {
+    color: black; 
+    padding: .5rem 1.2rem;
+    border: 1px solid #96EDA9; 
+    border-radius: .5rem; 
+    cursor: pointer;
+    transition: .3s ease;
+}
+  
+  .form-button-nice:hover {
+    background-color:white;
+   
+    background-color: #96EDA9;
+  }
+  
+  
+ 
+  /* Optional: Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .OrganizeDrive {
+      max-width: 100%;
+    }
+  }
+  
+  
+  
+  
+  
+  

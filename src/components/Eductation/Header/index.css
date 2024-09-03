@@ -1,0 +1,51 @@
+/* Page Header Styles */
+.page-header {
+    background-image: url('../../../img/trees.jpg'); /* Background image for the header */
+    background-size: cover; /* Cover the entire header with the image */
+    color: #fff; /* Text color (white) */
+    text-align: center; /* Center-align content */
+    padding: 60px 0; /* Vertical and horizontal padding for spacing */
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* Header Content Styles */
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly horizontally */
+    
+}
+.header-content{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.header-text .edu-heading {
+    font-size: 3rem; /* Header font size */
+    margin-bottom: 10px; /* Add spacing below the header */
+     /* Bold font for the header */
+     font-family: 'Josefin Sans', sans-serif;
+}
+.header-text .edu-sub-heading{
+    font-size: 1.5rem;
+} 
+.header-text p {
+    font-size: 18px; /* Content font size */
+    line-height: 1.5; /* Line spacing for readability */
+    margin-bottom: 20px; /* Add spacing below each paragraph */
+}
+
+/* Header Intro Styles */
+.header-intro {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for intro text */
+    padding: 30px; /* Padding for spacing within the intro section */
+    /* margin-top: 20px; */
+     /* Add spacing between header and intro section */
+    border-radius: 8px; /* Add a subtle border radius to the intro section */
+}
+
+.header-intro p {
+    font-size: 18px; /* Font size for the intro text */
+    line-height: 1.5; /* Line spacing for readability */
+    margin-bottom: 20px; /* Add spacing below each paragraph */
+}
